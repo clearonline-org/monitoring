@@ -1,0 +1,45 @@
+/**
+* @Author: mars
+* @Date:   2016-12-29T19:27:24-05:00
+* @Last modified by:   mars
+* @Last modified time: 2016-12-31T03:53:31-05:00
+*/
+.fill-page {
+  height: calc(100vh - 10em);
+  padding: 0;
+}
+.blue-sky {
+  background-color: #87CEFA;
+}
+
+.fill-page .vertical-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fill-page .vertical-wrapper .vertical-center {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.fill-page .box.title {
+  font-size: 5em;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.fill-page .box.description {
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.fill-page .cover-all {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 158, 255, 0.43);
+}
